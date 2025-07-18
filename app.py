@@ -32,7 +32,5 @@ def predict_bike():
 
 # Don't include app.run() — gunicorn will handle it
 
-    app.run(debug=True, host='0.0.0.0', port=5000)
-
 
 
